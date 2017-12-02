@@ -1,5 +1,5 @@
 // porta servidor backend
-const port = process.env.PORT //3003
+const port = process.env.PORT || 8000
 
 // constantes
 const bodyParser = require('body-parser')
