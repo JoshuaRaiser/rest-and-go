@@ -6,9 +6,9 @@ module.exports = function(server){
   server.use('/api', router)
 
   // rotas da API
-  //const restAndGoService = require('../api/restAndGo/restAndGoService')
+  const restAndGoService = require('../api/restAndGo/restAndGoService')
   // registra URL base
-  //restAndGoService.register(router, '/restAndGo')
+  restAndGoService.register(router, '/restAndGo')
 
   // /api/billingSummary
   //const billingSummaryService = require('../api/billingSummary/billingSummaryService')
