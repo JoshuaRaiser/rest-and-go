@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-module.exports = mongoose.connect('mongodb://localhost/db_restandgo')
+module.exports = mongoose.connect('mongodb://joshuaraiser:dxtdpr1596@ds127436.mlab.com:27436/db_restandgo')
 
 // tradução das mensagens de erros retornadas pela API
 mongoose.Error.messages.general.required = "O campo '{PATH}' é obrigatório!"
